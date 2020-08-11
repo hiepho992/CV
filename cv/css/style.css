@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+#cover{
+    padding: 0px 30px;
+}
+header{
+    border: 2px solid white;
+    padding: 0;
+
+}
+#navbar{
+    border-bottom: 3px solid #333;
+}
+#navbar, #border, header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ffd23f;
+}
+#border{
+    width: 40%;
+}
+#avatar{
+    border: 2px solid white;
+    padding: 10px;
+}
+#avatar>img{
+    width: 130px;
+    height: 130px;   
+}
+#name{
+    width: 60%;
+}
+#infomation{
+    border-bottom: 3px solid #333;
+    padding: 5px 20px;
+}
+
+#infomation ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+#infomation ul li{
+    margin: 2px 70px;
+}
+#target{
+    margin: 10px;
+    width: 100%;
+}
+#target p{
+    text-align: justify;
+    margin: 2px;
+}
+.container-fluid{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+    padding: 10px;
+}
+.study{
+    line-height: 1.5rem;
+}
+
+.progress.col-7{
+  padding: 0px;
+}
+.rowstyle{
+    width: 100%;
+}
+@media (max-width: 720px){
+    #name h1{
+        font-size: 30px;
+    }
+    #name h4{
+        font-size: 25px;
+    }
+    .ulFlex{
+        flex-direction: column;
+        list-style: none;
+    }
+    .d-flex{
+        flex-direction: column;
+        text-align: left;
+    }
+    .col-5, progress.col-7{
+        width: 100%;
+    }
+    .align-items-center{
+        width: 100%;
+    }
+    #infomation ul{
+        flex-direction: column;
+    }
+    #infomation ul li{
+        margin: 0;
+    }
+    .container-fluid{
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+        width: 100%;
+    }
+    .left, .right{
+        width: 100%;
+    }
+    #cover{
+        padding: 0px 5px;
+    }
+ 
+ 
+
+}
